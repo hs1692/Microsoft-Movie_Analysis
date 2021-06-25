@@ -1,73 +1,72 @@
 # Title
 
-**Authors**: Student1, Student2
+    **Authors**: Harmandip Singh
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+This project analzyes possible avenues that would help make a possible Microsoft Film Studio Successful. Analysis of the data yiedled key insights into competitors and possible avenues for Microsoft to pursue. The data showed that the the genres most often produced by studios consisted of Drama, Comedy, and Thrillers. Hoever these genres showed no relationship in producing high ratings or higher revenues. Therefore we suggest Microsoft to not produce these wasted genres. INstead Microsoft should produce Shorts and Documentaries to try and get high ratings while capturing the attention of critics to build brand recognition. In addition they should focus on making Adventure, Action, and Sci-Fi movies that help bring in large amounts of revenue in foreign and domestic markets. 
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+We are trying to provide the best solution for a possible Microsoft film studio to become successful. I belieeve it is important to capture revenue share and produce high rated content to build brand recognition. We plan to see if the data can offer insights on how we could do this.
 
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
+
+
 
 ## Data
 
-Describe the data being used for this project.
+The data in was collected from IMDB long running dataset of films and shows. The dataset contains more than 140,000 data points. The files provide information on titles, genres, runtime, ratings, and number of votes. The second data set was pulled from BoxOFfice Mojo site and contaianed information about domestic of foreign revenue for movie titles.
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
+This project uses descriptive analysis using bar plots and average to compare stats across categories. Scatterplots weere used to asses a rough estimate of a relationship between two data points and later confirmed using box plots. All of our anlysis revolved around Genre groups as we believe there is enough diversity between them and they have different replations with ratings and revenue. 
 
-***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
-***
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+Drama, Documentary, Comedy, and Thrillers are some of the most porduced genres of films in the industry. 
 
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
+![image1](./images/viz1.png)
 
-Here is an example of how to embed images from your sub-folder:
 
-### Visual 1
-![graph1](./images/viz1.png)
+From the top produced Genres only Documentaries averages a high ranking on IMDB while Drama, Codedy, and Thrillers are middle of the pack. 
+Shorts are by far the highest rated genre on average
+
+![image2]
+
+The highest voted and popular genres are Adventure, Action, and Sci-Fi. Again heavily produced genres such as Drama do not garner more attention.
+
+![image3]
+
+There seems to be a positive relationship between number of votes and Domestic Revenue
+
+![image5]
+
+This popularity in votes transfers over to domestic revenue where Adventure, Action , and Sci-Fi genres on avaerage return some of the highest revenues. 
+
+![image6]
+
+
+This relationship carries over to foreign markets and Adventure, action, and Sci-Fi genres are in the top 4 in producing foreing revenues. 
+
+![image7]
+
+
 
 ## Conclusions
 
-Provide your conclusions about the work you've done, including any limitations or next steps.
+1) Microsoft should stay away from mass produced genre such as Drama, Comedy, and Thriller because they do not provide reurn on ratings or revenue
 
-***
-Questions to consider:
-* What would you recommend the business do as a result of this work?
-* What are some reasons why your analysis might not fully solve the business problem?
-* What else could you do in the future to improve this project?
-***
+2) Create Shorts and Documentaries to capture high ratings and praise from critics building brand image
+
+3) Create Adventure, Action, and Sci-Fi films because they tend to attract the most attention and provide greater domestic and foreing revenue compared to other genres. 
+
+4) Future Analyss can be conducted into not only revenues but profit margins and see if any hidden gem genres emerge. 
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./Microsoft Analysis Notebook.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
