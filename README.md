@@ -1,87 +1,83 @@
-<<<<<<< HEAD
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+# Analysing Film Data for Insights
 
-![blueprint](images/blueprint.png)
+    **Authors**: Harmandip Singh
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+## Overview
 
-## Repository Contents
+This project analzyes possible avenues that would help make a possible Microsoft Film Studio Successful. Analysis of the data yiedled key insights into competitors and possible avenues for Microsoft to pursue. The data showed that the the genres most often produced by studios consisted of Drama, Comedy, and Thrillers. Hoever these genres showed no relationship in producing high ratings or higher revenues. Therefore we suggest Microsoft to not produce these wasted genres. INstead Microsoft should produce Shorts and Documentaries to try and get high ratings while capturing the attention of critics to build brand recognition. In addition they should focus on making Adventure, Action, and Sci-Fi movies that help bring in large amounts of revenue in foreign and domestic markets. 
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+## Business Problem
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `data` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
+We are trying to provide the best solution for a possible Microsoft film studio to become successful. I belieeve it is important to capture revenue share and produce high rated content to build brand recognition. We plan to see if the data can offer insights on how we could do this.
 
-## Instructions For Using This Repository
 
-### Fork This Repository
 
-**For a group project**, have only one team member do these steps:
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+## Data
 
-3. Use `git clone` to clone your fork of this repo to your local computer
+The data in was collected from IMDB long running dataset of films and shows. The dataset contains more than 140,000 data points. The files provide information on titles, genres, runtime, ratings, and number of votes. The second data set was pulled from BoxOFfice Mojo site and contaianed information about domestic of foreign revenue for movie titles.
 
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
 
-### Work In Your Fork Of This Repository
+## Methods
 
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
+This project uses descriptive analysis using bar plots and average to compare stats across categories. Scatterplots weere used to asses a rough estimate of a relationship between two data points and later confirmed using box plots. All of our anlysis revolved around Genre groups as we believe there is enough diversity between them and they have different replations with ratings and revenue. 
 
-### Use The Slide Template
 
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
+## Results
 
-### Tidy Up Your Project
+Drama, Documentary, Comedy, and Thrillers are some of the most porduced genres of films in the industry. 
 
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - This README file: `README.md`
-   - Any unused data files in the `data` folder
-   - Any unused images in the `images` folder
+![image1](./images/image1.png)
 
-### Submit Your Project
 
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+From the top produced Genres only Documentaries averages a high ranking on IMDB while Drama, Codedy, and Thrillers are middle of the pack. 
+Shorts are by far the highest rated genre on average
 
-***
-### Notes
+![image2](./images/image2.png)
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
-=======
-# Phase 1 Project Templates and Examples
+The highest voted and popular genres are Adventure, Action, and Sci-Fi. Again heavily produced genres such as Drama do not garner more attention.
 
-This repo contains templates and examples to help you get started with your Phase 1 Project. Each of these is in a separate branch as explained below.
+![image3](./images/image3.png)
 
-- The **template-mvp** branch is the template you should use to for your Phase 1 Project. MVP stands for Minimum Viable Product, but this isn't meant in a negative way - if your project uses this template, it will be functional and accessible.
+There seems to be a positive relationship between number of votes and Domestic Revenue
 
-- The **example-mvp** branch is an example project using the MVP template.
+![image5](./images/image5.png)
 
-Once you've completed your project using the MVP template, you can improve it using the Above and Beyond (AAB) template if you have time:
+This popularity in votes transfers over to domestic revenue where Adventure, Action , and Sci-Fi genres on avaerage return some of the highest revenues. 
 
-- The **template-aab** branch is the AAB template to use to keep improving your project.
+![image6](./images/image6.png)
 
-- The **example-aab** branch is an example project using the AAB template.
->>>>>>> master
+
+This relationship carries over to foreign markets and Adventure, action, and Sci-Fi genres are in the top 4 in producing foreing revenues. 
+
+![image7](./images/image7.png)
+
+
+
+## Conclusions
+
+1) Microsoft should stay away from mass produced genre such as Drama, Comedy, and Thriller because they do not provide reurn on ratings or revenue
+
+2) Create Shorts and Documentaries to capture high ratings and praise from critics building brand image
+
+3) Create Adventure, Action, and Sci-Fi films because they tend to attract the most attention and provide greater domestic and foreing revenue compared to other genres. 
+
+4) Future Analyss can be conducted into not only revenues but profit margins and see if any hidden gem genres emerge. 
+
+## For More Information
+
+Please review our full analysis in [our Jupyter Notebook](./Microsoft Analysis Notebook.ipynb) or our [presentation](./Microsoft Studios.pdf).
+
+For any additional questions, please contact **name:Harmandip Singh, email:harmandip6@gmail.com
+
+## Repository Structure
+
+Describe the structure of your repository and its contents, for example:
+
+```
+├── README.md                           <- The top-level README for reviewers of this project
+├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── data                                <- folder: A folder for the data you reference with your code
+└── images                              <- Sourced externally and provided in a file
+```
