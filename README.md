@@ -33,24 +33,24 @@ Drama, Documentary, Comedy, and Thrillers are some of the most porduced genres o
 From the top produced Genres only Documentaries averages a high ranking on IMDB while Drama, Codedy, and Thrillers are middle of the pack. 
 Shorts are by far the highest rated genre on average
 
-![image2](./images/image2.png)
+![image 2](./images/image 2.png)
 
 The highest voted and popular genres are Adventure, Action, and Sci-Fi. Again heavily produced genres such as Drama do not garner more attention.
 
-![image3](./images/image3.png)
+![image 3](./images/image 3.png)
 
 There seems to be a positive relationship between number of votes and Domestic Revenue
 
-![image5](./images/image5.png)
+![image 5](./images/image 5.png)
 
 This popularity in votes transfers over to domestic revenue where Adventure, Action , and Sci-Fi genres on avaerage return some of the highest revenues. 
 
-![image6](./images/image6.png)
+![image 6](./images/image 6.png)
 
 
 This relationship carries over to foreign markets and Adventure, action, and Sci-Fi genres are in the top 4 in producing foreing revenues. 
 
-![image7](./images/image7.png)
+![image 7](./images/image 7.png)
 
 
 
